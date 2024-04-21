@@ -1,0 +1,198 @@
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+main, header{
+    max-width: 1170px;
+    background: #FFF;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.menubar{
+    display: none;
+}
+.nav-title,
+.tribe{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.tribe,
+.home{
+    color: #FF5400;
+}
+.home{
+    font-weight: 700;
+}
+.bg-section{
+    text-align: center;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding-bottom: 106px;
+}
+.explore-your-travel{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 105px 285px 24px 285px;
+    margin: 0px auto;
+
+}
+.explore-desc{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 247px 48px 247px;
+    margin: 0 auto;
+}
+.find-now{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 35px;
+    width: 174px;
+}
+.find{
+    margin-left: 5px;
+}
+.input-box input[type=text], select{
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    padding: 1rem;
+    width: 174px;
+    margin-right: 25px;
+}
+.input-box::placeholder , select{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.input-box select{
+    text-align: left;
+}
+.input-box{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem;
+    margin: 0px 150px;
+}
+
+/* Popular tour style */
+.our-popular-tour{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.popular-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    padding-bottom: 24px;
+}
+.popular-desc{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.read-more{
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 32px;
+    padding: 14px 35px;
+}
+.popular-tour-content ul li{
+    padding-bottom: 25px;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+    }
+    main, header{
+        max-width: 335px;
+        background: #FFF;
+        margin: 0 auto;
+    }
+    /* nav,
+    nav ul
+    {
+        flex-direction: column;
+    } */
+    nav>ul{
+        display: none;
+    }
+    .nav-title, .tribe{
+        font-size: 21px;
+    }
+    .menubar{
+        display: contents;
+    }
+    .menubar i{
+        padding-right: 6px;
+    }
+    .explore-your-travel{
+        color: #FFF;
+        font-size: 22px;
+        padding: 30px 60px 10px 60px;
+    }
+    .explore-desc{
+        color: #FFF;
+        font-size: 14px;
+        padding: 0px 15px 30px 15px;
+    }
+    .input-box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0px 24px 30px 24px;
+        align-items: center;
+    }
+    .input-box input[type=text], select{
+        padding: 1.25rem;
+        width: 215px;
+        margin: 0 auto;
+    }
+    .input-box select, .find-now{
+        width: 100%;
+    }
+    .bg-section{
+        background-position: 50% 0%;
+        padding-bottom: 20px;
+    }
+    .our-popular-tour{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+}

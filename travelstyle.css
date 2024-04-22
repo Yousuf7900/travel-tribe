@@ -356,4 +356,30 @@ hr{
         padding-top: 25px;
         padding-bottom: 30px;
     }
+    .choose-your-destination{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-row-div,
+    .second-row-div,
+    .third-row-div{
+        flex-direction: column;
+    }
+    .first-row-div img,
+    .second-row-div img,
+    .third-row-div img{
+        width: 335px;
+    }
+    .destination-desc{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    }
+    .first-row,
+    .second-row,
+    .third-row{
+        max-height: 175px;
+    }
 }

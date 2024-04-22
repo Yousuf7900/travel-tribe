@@ -162,6 +162,14 @@ nav li a{
     bottom: 205px;
     left: 230px;
 }
+.indonesia{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 205px;
+    left: 230px;
+}
 .first-row-div{
     margin-top: 45px;
     display: flex;
@@ -369,6 +377,7 @@ hr{
     .second-row-div img,
     .third-row-div img{
         width: 335px;
+        height: 175px;
     }
     .destination-desc{
     color: rgba(19, 19, 24, 0.70);
@@ -382,4 +391,36 @@ hr{
     .third-row{
         max-height: 175px;
     }
+    .choose-your-destination h4{
+        width: 0;
+    }
+    .second-row1 h4{
+        width: 200px;
+    }
+    .maldives,
+    .indonesia{
+        bottom: 140px;
+        left: 110px;
+    }
+    .srilanka{
+        left: 115px;
+        bottom: 140px;
+    }
+    .america{
+        bottom: 140px;
+        left: 75px;
+    }
+    .kashmir{
+        left: 110px;
+        bottom: 140px;
+    }
+    .Bangladesh{
+        left: 88px;
+        bottom: 150px;
+    }
+    .bandarban{
+        bottom: 150px;
+        left: 88px;
+    }
+
 }

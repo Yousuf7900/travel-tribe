@@ -228,6 +228,49 @@ nav li a{
 }
 
 
+/* Why choose us */
+.why-choose-us .first-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.hotels{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+.price{
+    position: relative;
+    left: 300px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+}
+.div-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.why-choose-us h3 ,
+.popular-desc1
+{
+    text-align: center;
+}
+.popular-desc1{
+    padding: 10px 250px 30px;
+}
+.why-choose-us{
+    margin-top: 50px;
+    margin-bottom: 390px;
+}
 
 /* Footer section */
 footer{
@@ -422,5 +465,18 @@ hr{
         bottom: 150px;
         left: 88px;
     }
-
+    .popular-desc1{
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .why-choose-us{
+        margin-top: 50px;
+        margin-bottom: 1000px;
+    }
+    .why-choose-us .first-row{
+        grid-template-columns: 1fr;
+    }
+    .price{
+        left: 0;
+    }
 }

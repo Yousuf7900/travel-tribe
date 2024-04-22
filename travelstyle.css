@@ -111,7 +111,7 @@ nav li a{
 }
 .popular-title{
     color: #131318;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
     margin: 0;
     padding-bottom: 24px;
@@ -319,6 +319,35 @@ hr{
     margin: 50px 250px;
 }
 
+/* Video */
+.video{
+    display: flex;
+    gap: 28px;
+}
+.video-content ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.video-content .popular-title{
+    padding-right: 50px;
+    padding-bottom: 24px;
+}
+.video-content .popular-desc{
+    padding-bottom: 24px;
+}
+.video-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    width: 275px;
+    bottom: 250px;
+    left: 740px;
+}
+
 
 
 /* hide */
@@ -407,7 +436,8 @@ hr{
         padding-top: 25px;
         padding-bottom: 30px;
     }
-    .choose-your-destination{
+    .choose-your-destination,
+    .video{
         display: flex;
         flex-direction: column;
     }
@@ -478,5 +508,16 @@ hr{
     }
     .price{
         left: 0;
+    }
+    .video{
+        margin-top: 50px;
+    }
+    .video-content .popular-title{
+        padding: 0;
+    }
+    .video-title{
+        bottom: 160px;
+        left: 30px;
+        font-size: 20px;
     }
 }

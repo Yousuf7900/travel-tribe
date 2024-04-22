@@ -136,6 +136,91 @@ nav li a{
     padding-bottom: 25px;
 }
 
+/* Destination */
+.choose-your-destination{
+    margin-top: 80px;
+}
+.destination-content{
+    text-align: center;
+}
+.destination-desc{
+    padding: 0 270px;
+}
+.first-row,
+.third-row
+{
+    max-height: 300px;
+}
+.second-row{
+    max-height: 285px;
+}
+.maldives{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 205px;
+    left: 230px;
+}
+.first-row-div{
+    margin-top: 45px;
+    display: flex;
+    gap: 25px;
+}
+.second-row-div{
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+}
+.srilanka{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 200px;
+    left: 130px;
+}
+.america{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 200px;
+    left: 130px;
+}
+.kashmir{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 200px;
+    left: 90px;
+}
+
+.third-row-div{
+    margin-top: 24px;
+    display: flex;
+    gap: 25px;
+}
+.Bangladesh{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 210px;
+    left: 160px;
+}
+.bandarban{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 210px;
+    left: 260px;
+}
+
+
+
 /* Footer section */
 footer{
     margin: 100px auto 0px auto;

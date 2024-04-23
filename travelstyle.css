@@ -630,7 +630,16 @@ margin-bottom: 40px;
 .btn-div{
     text-align: center;
 }
-
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.time, .person{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
 /* hide */
 .hide{
@@ -879,5 +888,9 @@ margin-bottom: 40px;
     }
     .titles .popular-title{
         text-align: center;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

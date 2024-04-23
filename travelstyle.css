@@ -9,8 +9,19 @@ main, header{
     background: #FFF;
     margin: 0 auto;
 }
-
-
+.logo-footer .logo1{
+    top: 105px;
+}
+.logo1{
+    max-width: 48px;
+    max-height: 56px;
+    position: relative;
+    top: 32px;
+    right: 5px;
+}
+.logo,.logo-footer{
+    display: flex;
+}
 /* Special codes */
 /* body{
     max-width: 1170px;
@@ -830,5 +841,18 @@ margin-bottom: 40px;
         text-align: center;
         font-size: 21px;
         font-weight: 800;
+    }
+    .logo-footer .logo1{
+        top: 32px;
+    }
+    .logo1{
+        max-width: 30px;
+        max-height: 30px;
+        position: relative;
+        top: 20px;
+        right: 5px;
+    }
+    .titles .popular-desc{
+        padding: 0;
     }
 }
